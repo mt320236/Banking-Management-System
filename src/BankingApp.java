@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class BankingApp {
    private  static String url="jdbc:mysql://127.0.0.1:3306/banking_system";
-   private static String username="root";
-   private static String password="Ashish123456@";
+   private static String username="Your_username";
+   private static String password="Your_password";
     public static void main(String[] args) {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
